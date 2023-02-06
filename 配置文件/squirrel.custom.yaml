@@ -278,7 +278,6 @@ patch:
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
       line_spacing: 8                          # 行间距
-      line_spacing: 10                         # 行间距(适用于竖排)
       border_height: 4                             # 窗口上下高度，大于圆角半径才生效
       border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
       corner_radius: 5                         # 窗口圆角
@@ -379,20 +378,20 @@ patch:
   
 # 特定App默认中/英文输入   
   app_options:    
-    com.apple.Spotlight:             # 聚焦搜索
-        ascii_mode: true             # true默认英文,false默认中文
+    # com.apple.Spotlight:             # 聚焦搜索
+    #     ascii_mode: true             # true默认英文,false默认中文
     com.runningwithcrayons.Alfred:   # alfred
         ascii_mode: true
     com.apple.Terminal:              # 终端
         ascii_mode: true
-    com.microsoft.VSCode:            # Visual Studio Code
-        ascii_mode: true
-        ascii_punct: true            # 中文状态输出英文标点(半角) 
+    # com.microsoft.VSCode:            # Visual Studio Code
+    #     ascii_mode: true
+    #     ascii_punct: true            # 中文状态输出英文标点(半角) 
     com.tencent.Lemon:               # 腾讯柠檬
         ascii_mode: true
-    com.apple.dt.Xcode:              # Xcode
-        ascii_mode: true
+    # com.apple.dt.Xcode:              # Xcode
+    #     ascii_mode: true
     com.nektony.App-Cleaner-SII:     # App Cleaner & Uninstaller
         ascii_mode: true
-    com.xunyong.hapigo:              # hapigo
-        ascii_mode: true
+    # com.xunyong.hapigo:              # hapigo
+    #     ascii_mode: true
